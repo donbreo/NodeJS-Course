@@ -1,0 +1,23 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "\"This is a test package\"",
+  "main": "Test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donbreo/NodeJS-Course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donbreo/NodeJS-Course/issues"
+  },
+  "homepage": "https://github.com/donbreo/NodeJS-Course#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
