@@ -1,0 +1,21 @@
+## How to start Node for testing
+
+npm test
+
+################################################################
+
+## Starting Postgresql Database
+
+Success. You can now start the database server using:
+
+    pg_ctlcluster 12 main start
+
+CREATE ROLE your_username WITH LOGIN CREATEDB ENCRYPTED PASSWORD 'your_password';
+CREATE ROLE brandon WITH LOGIN CREATEDB ENCRYPTED PASSWORD 'brandondbpass';
+
+Create a Db:
+createdb espada
+
+Connect to db:
+psql -d espada -U  brandon -W
+################################################################
