@@ -20,7 +20,6 @@ exports.postAddProducts = (req, res, next) => {
 }
 
 exports.getProducts= (req, res, next) => {
-	// const products = adminRoutes.products;
 	const products = Product.fetchAll((products) => {
 		res.render('shop/product-list', {
 			prods: products, 
